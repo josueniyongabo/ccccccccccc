@@ -1,0 +1,39 @@
+
+body{
+background-image:url("2.PNG") ;
+
+}
+ 
+ div{
+    margin-left:300px;
+ }
+ .container{
+    display:flex;
+    padding: 20px;
+ }
+ul{
+display:flex;
+}
+ ul li {
+    
+    padding: 20px;
+    list-style-type:none;
+ 
+ }
+  li a{
+ display:block;
+ margin-top:-40px;
+}
+
+a{
+text-decoration:none;
+text-align: center;
+padding: 10px;
+color:white;
+
+}
+a:hover{
+    background-color:orange;
+border-radius: 30px;
+}
+

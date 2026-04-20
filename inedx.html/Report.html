@@ -1,0 +1,45 @@
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Report community Issues</title>
+<link rel="stylesheet" href="Rep.css"  />
+</head>
+
+<body>
+      <form onSubmit="fun()" id="form">
+    <div id="container">
+      <h2>Report Issue</h2>
+       <label>Full name</label>
+   <input type="email" id="email" required  ><br><br>
+    <label>Email</label>
+   <input type="email" id="email" required>  <br><br>
+   
+<p>Select Issue<select id="select">
+  <option disable>select one</option>
+<option >Shortage of water</option>
+
+  <option >Electricity Issue</option>
+    <option >High inflation rate</option>
+
+
+</select></p> <br><br>
+      <button type="submit" onclick="fun()">Report</button><br>
+<a href="home.html"><</a>
+     
+      </div>
+      </form >
+      <script type="text/javascript" charset="utf-8">
+        function fun(){
+        var  x=document.getElementById("email"). value;
+            alert("Thank you"+" "+x+" "+" for reporting community problem");
+          
+        }
+      </script>
+</body>
+
+</html>

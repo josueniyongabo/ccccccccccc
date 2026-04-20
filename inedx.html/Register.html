@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registration</title>
+  <link rel="stylesheet" href="Reg.css" />
+</head>
+
+<body>
+   <form onSubmit="fun()" id="form">
+    <div id="container">
+      <h2>Register </h2>
+      
+ <label>Frst name</label>
+ <input type="text" id="fname" required> <br><br>
+ 
+  <label>Last name</label>
+   <input type="text" id="lname" required>  <br><br>
+   
+ 
+ <input type="radio" id="radio" required > <label>Male</label><br>
+ 
+ 
+
+ <input type="radio" id="radio" required > <label>Female</label> <br><br>
+ 
+      
+       <label>Email</label>
+   <input type="email" id="email" required  ><br><br>
+    <label>password</label>
+   <input type="password" id="password" required>  <br><br>
+      <button type="submit" onclick="fun()">submit</button><a href="login.html">></a><br>
+     <h3>If  you have an account!<a href=login.html>Log in </a></h3>
+<a href="landing.html"><</a> 
+      </div>
+      </form >
+      <script type="text/javascript" charset="utf-8">
+        function fun(){
+         var x=document.getElementById("fname"). value;
+            alert("Hi" + " " + x +" " + "You submitted your detail Successfully");
+          
+        }
+      </script>
+</body>
+
+</html>
